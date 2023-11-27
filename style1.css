@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans_serif;
+    background-color: rgb(255, 213, 24);
+}
+
+.contact-items {
+    margin: 10px;
+}
+
+.Welcome {
+    text-align: center;
+    margin: 40px;
+    border: 500px;
+}
+
+h1 {
+    color: rgb(51, 51, 51);
+    font-size: 50px;
+    text-align: left;
+    margin: 10px;
+    padding: 4px;
+    border: 40px;
+}
+
+.button {
+    text-align: right;
+    margin-bottom: 1.5%;
+    text-decoration: none;
+}
+
+footer {
+    margin: 100px 50px 50px 50px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+#login {
+    padding: 10px 25.5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 3px solid grey;
+    text-decoration: none;
+}
+
+#login:hover {
+    cursor: pointer;
+    background-color: rgb(255, 213, 24);
+    color: black;
+    transition: background-color 0.5s ease 0s;
+    text-decoration: none;
+}
+
+#sign:hover {
+    cursor: pointer;
+    background-color: rgb(255, 213, 24);
+    color: black;
+    transition: background-color 0.5s ease 0s;
+    text-decoration: none;
+}
+
+#sign {
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 3px solid grey;
+}
+
+.logo {
+    background-color: rgb(255, 213, 24);
+    color: black;
+    margin: 5px;
+    padding: 7px;
+    border: 8px solid black;
+}
+
+.logoh {
+    padding: 0px;
+    text-align: left;
+    font-size: 53px;
+    margin-left: 12px;
+    margin-top: -11px;
+}
+#nnnn{
+    margin: 35px 0px 0px 17px;
+    text-align: left;
+    font-size: 20px;
+}
+#quote {
+    text-align: left;
+    margin: 35px 108px 0px 17px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bh,
+.sh {
+    display: inline-block;
+    margin: 16px 100px;
+}
+
+.both {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.k {
+    display: inline-block;
+}
+
+.last {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact {
+    margin: 1% 2% 0% 3%;
+    font-size: 26px;
+}
+
+.conatct-items {
+    padding: 3px;
+    margin: 0px;
+}
