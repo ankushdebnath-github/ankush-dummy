@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Somebrush;
+    src: url(SomeBrush.ttf);
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://img.freepik.com/free-photo/flat-lay-newspaper-strips-arrangement_23-2149318836.jpg?size=626&ext=jpg&ga=GA1.1.1968007778.1701072208&semt=ais')no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.wrapper{
+    width: 420px;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    padding: 30px 40px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+
+}
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 20px 45px 20px 20px;
+    
+}
+.input-box input::placeholder{
+    color:rgb(0, 0, 0);
+    align-content: center;
+    margin-left: 20px;
+
+}
+.wrapper.input-box{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0px 15px;
+}
+.remember-forgot label input{
+    accent-color: rgb(0, 0, 0);
+    margin-right: 3px;
+
+}
+
+.remember-forgot a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    align-items: right;
+    
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+    align-items: right;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: rgb(255, 255, 255);
+    border: 0px;
+    outline: 0px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 600;
+}
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0px 15px;
+}
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0px 15px;
+}
+.register-link p a{
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
+/*video{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+}*/

@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: var(--primary-text-color);
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    color: var(--secondary-text-color);
+    line-height: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+    .container {
+        max-width: 100%; 
+        padding: 0 20px; 
+    
+   
+    
+}
+
+nav {
+    background-color: #f3faff;
+    box-shadow: 0 0 5px #bbd0e2;
+    box-shadow: 0 0 5px ;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    
+    
+    
+    
+}
+
+.main-nav {
+    justify-content: space-between;
+    padding-block: 7px;
+    margin:0 auto ;
+    max-width: calc(100% - 40px);
+    
+    
+}
+
+.company-logo {
+    width: 120px;
+    margin-top: 3px;
+}
+
+.nav-links ul {
+    gap: 16px;
+}
+
+.hover-link {
+    cursor: pointer;
+    
+    
+}
+
+.hover-link:hover {
+    color: var(--secondary-text-color);
+}
+
+.hover-link:active {
+    color: red;
+}
+
+.nav-item.active {
+    color: var(--accent-color);
+}
+
+.search-bar {
+    height: 32px;
+    gap: 8px;
+}
+
+.news-input {
+    width: 200px;
+    height: 100%;
+    padding-inline: 12px;
+    border-radius: 4px;
+    border: 2px solid #bbd0e2;
+    font-family: "Roboto", sans-serif;
+}
+
+.search-button {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+}
+
+.search-button:hover {
+    background-color: var(--accent-color-dark);
+}
+
+main {
+    padding-block: 100px;
+    display: flex;
+
+    flex:1fr 1fr 1fr;
+
+    margin-top: 80px;
+    max-width: calc(100% - 400px); 
+    
+}
+
+body {
+    margin: 0; /* Reset default body margin */
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 0 20px; /* Add padding to both left and right sides */
+
+}
+
+
+
+
+.card {
+    width: 360px;
+    min-height: 400px;
+    box-shadow: 0 0 4px #d4ecff;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fff;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 8px #d4ecff;
+    background-color: #f9fdff;
+    transform: translateY(-2px);
+}
+
+.card-header img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 12px;
+}
+
+.news-source {
+    margin-block: 12px;
+}
+.logo{
+    color:white;
+    background-color: black;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.company-logo-img {
+    width: 40px; 
+    height: auto; 
+    margin-left: 16px; 
+    vertical-align: middle;
+   
+}
+.company-section {
+    display: flex;
+    align-items: center;
+   
+    
+}
+
+
+
+.your-account {
+    margin-left: 15px; 
+}
+
+.your-account p {
+    margin-left:-10px;
+    font-size: 15px;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+  }
+  body {
+  
+    background-image: url('assets/pexels-markus-spiske-97050.jpg');
+    
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+  #clock{
+    margin-left: 10px;
+  }
+  .button {
+    
+    transition: transform 0.3s ease;
+  }
+  
+  .button:hover {
+    transform: scale(1.1); 
+  }
+  .title {
+    font-size: 3em;
+    animation: colorChange 3s infinite alternate;
+  }
+  
+  @keyframes colorChange {
+    from {
+      color: red;
+    }
+    to {
+      color: blue;
+    }
+  }
+ 
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.share {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color:red;
+}
+
+.credit {
+    font-size: 18px;
+}
+
+.credit span {
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+        padding: 0 10px; 
+    }
+
+   
+    .card {
+        min-height: auto;}
+    .main-nav {
+            
+            margin-left: 0;
+            margin-right: 0;}
+            /* For mobile devices (max-width: 768px) */
+ 
+
+
+    /* Show menu-toggle button and full-width navigation links */
+    .nav-links {
+        width: 100%;
+    }
+
+    .nav-links ul {
+        display: none;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .nav-links ul.active {
+        display: flex;
+    }
+
+
+        #menu-toggle {
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            font-size: 15px;
+            padding-left:5px;
+            padding-right:5px ;
+            padding-top: 7px;
+            padding-bottom: 7px;
+           border-radius: 5px;
+           color: white;
+           background-color: black;
+           border-color: white;
+           margin-left: 1px;
+           
+           
+           
+    }
+    #menu-toggle:active{
+        opacity: 0;
+    }
+    .logo{
+        font:15px;
+    }
+    
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+ /* Move the company logo to the start */
+.your-account p{
+    display:none;
+}
+.company-logo-img{
+    margin-left: -100px;
+    opacity: 0;
+  
+}
+
+.search-bar {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin-right:0;
+    margin-left: -35px; /* Adjust margin between logo and search bar */
+}
+
+.search-bar input {
+    width: 100px; /* Adjust width of the input */
+    /* Other styles for the input */
+}
+.search-button{
+    width: 80px;
+    margin-right: 18px;
+    
+    padding: 8px 0px;
+    
+}}
+
+            
+        
+       
+     
+        
+       
+
+
+/* For larger screens */
+@media screen and (min-width: 1200px) {
+    .cards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 40px;
+        column-gap: 18px;
+        margin-left: 175px; 
+        margin-right: auto; 
+        max-width: 1200px; 
+      
+        position: relative;
+        left: 50%; 
+        transform: translateX(-50%); 
+    }
+    
+    
+   
+
+    }
+    
+#menu-toggle {
+    display: none; 
+}
+
+/* Styles for mobile view (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .nav-links ul {
+        display: none; /* Hide the list by default on smaller screens */
+    }
+
+    #menu-toggle {
+        display: block; /* Show the button on smaller screens */
+    }
+}
